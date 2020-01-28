@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Gafata&display=swap');
+*{
+	font-family: 'Gafata', sans-serif;
+	font-weight: 400;
+}
+body{
+	background-color: rgb(240,240,240);
+}
+.dart{
+	position:absolute;
+	width: 115px;
+	height: 115px;
+}
+#board{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+button,#add,#rem,#bpb{
+	background-color: rgb(243,246,222);
+}
+
+#util{
+	width: 210px;
+}
+#util > td{
+	font-size: 17px;
+}
+td > button{
+	width: 50%;
+	text-align: center;
+	font-size: 17px;
+}
+td > input{
+	font-size: 17px;
+}
+#rem{
+	width: 100%;
+}
+#butt{
+	position: absolute;
+	top:700px;
+	left:700px;
+	padding: 15px;
+	font-size: 18px;
+}
+.horizontal{
+	z-index: 3;
+	position:absolute;
+	top:700px;
+	left:0px;
+	height: 20px;
+	width:700px;
+}
+.vertical{
+	z-index: 3;
+	position: absolute;
+	top:0px;
+	left:700px;
+	height:700px;
+	width: 20px;
+}
+.green{
+	background-color: green;
+	z-index: 5;
+}
+.red{
+	background-color: red;
+}
+table {
+	position: absolute;
+	border-collapse: collapse;
+	margin-bottom: 1rem;
+	background-color: rgba(132,189,121,0.3);
+	width: 300px;
+}
+table td{
+	padding: 0.75rem;
+	vertical-align: top;
+	border: 2px solid rgba(244,160,55,1);
+	padding: 0.5rem;
+	
+}
+#scores,#cmove{
+	font-weight: bold;
+	font-size: 20px;
+}
+#scores{
+	left: 815px;
+	top: 220px;
+}
+.points{
+	text-align: center;
+}
+#cmove{
+	left: 815px;
+	top: 100px;
+}
+#util{
+	top: 100px;
+	left: 1185px;
+	width: 220px;
+}
+#info{
+	top: 300px;
+	left: 1185px;
+	width: 220px;
+}
+#gameover{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(240,240,240);
+	z-index: 5;
+	display: none;
+}
+#playAgain{
+	position: absolute;
+	top: 45vh;
+	left: 45vw;
+}
+#playAgain > p{
+	font-size: 35px;
+	text-align: center;
+}
+#playAgain > button{
+	padding: 40px;
+	font-size: 45px;
+}

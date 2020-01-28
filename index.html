@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pikado4214</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="pikado">
+		<img src="https://i.imgur.com/LOhsZJv.jpg" id="board" width="700" height="700">
+		<img src="https://i.imgur.com/KXHrFOw.png" id="d0" class="dart">
+		<img src="https://i.imgur.com/KXHrFOw.png" id="d1" class="dart">
+		<img src="https://i.imgur.com/KXHrFOw.png" id="d2" class="dart">
+		<div class="red vertical"></div>
+		<div class="red horizontal"></div>
+		<div class="green vertical" id="barVertical" style="height: 0px;"></div>
+		<div class="green horizontal" id="barHorizontal" style="width: 0px;"></div>
+		<button id="butt">pass</button>
+	</div>
+	<div id="tabbles">
+		<table id="scores"></table>
+		<table id="cmove"></table>
+		<table id="util">
+			<tr><td><input type="text" id="addP" value="Player" size="10"><button id="add">Add player</button></td></tr>
+			<tr><td><input type="text" id="basePoints" value="501" size="10"><button id="base">Base points</button></td></tr>
+			<tr><td colspan="2"><button id="rem">Remove all players</button></td></tr>
+		</table>
+		<table id="info">
+			<tr><td>Throw darts by<br>clicking on them</td></tr>
+			<tr><td>x - throw<br>r - pass</td></tr>
+			<tr><td>Use Chrome for<br>better experience</td></tr>
+		</table>
+	</div>
+	<div id="gameover"0>
+		<div id="playAgain">
+		<p id="winner"></p>
+		<button id="restart">Play again</button>
+		</div>
+	</div>
+</body>
+</html>
